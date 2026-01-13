@@ -1,0 +1,413 @@
+* {
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+                       /* WHOLE NAV BAR  */
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+                               /* FIRST ELEMENT */
+.nav-logo {
+    height: 50px;
+    width: 120px;
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.logo {
+    background-image: url(amz.logo.png);
+    background-size: cover;
+    height: 43px;
+    width: 100px;
+    margin-top: 8px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+}
+
+                                /* SECOND ELEMENT */
+/* .nav-address {
+    margin-left: 15px;
+    margin-right: 15px;
+} */
+.add-first {
+    font-size: 0.85rem;
+    color: #CCCCCC;
+    margin-left: 20px;
+}
+
+.add-sec {
+    font-weight: 600;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+                                /* THIRD ELEMENT */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F3A847;
+    width: 900px;
+    height: 44px;
+    border-radius: 5px;
+}
+
+.search-select {
+    background-color: #D4D4D4;
+    width: 45px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+
+}
+
+.search-input {
+    background-color: #FFFFFF;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;  /* horizontally centered */
+    align-items: center; /* vertically centered */
+}
+
+                                /* FOURTH ELEMENT */
+.usa {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.lang-name {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+           
+                                /* FIFTH ELEMENT  |||||||     SAME IS USED FOR SIXTH ELEMENT*/
+
+.sign-top {
+    font-size: 14px;
+    font-weight: 100;
+}
+.sign-bottom {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+                            /* SEVENT ELEMENT */
+
+.cart {
+    display: flex;
+    align-items: end;
+    font-size: 25px;
+    padding: 3px;
+}
+
+/* <!-- ccccccccccccccccc       FIRST HEADER ENDED     xxxxxxxxxxxxxxxx --> */
+
+
+
+/* <!-- ccccccccccccccccc       SECOND HEADER STARTED     xxxxxxxxxxxxxxxx --> */
+
+
+      /* <!--  (PANEL) --> */
+      
+.panel {
+    height: 35px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-options p {
+   display: inline;
+   margin-left: 15px;
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.90rem;
+}
+
+
+.panel-deals {
+    font-weight: 900;
+    margin-left: 10%;
+}
+
+/* <!-- ccccccccccccccccc       SECOND HEADER   (PANEL)  ENDED     xxxxxxxxxxxxxxxx --> */
+
+
+
+
+/* <!-- ccccccccccccccccc       MAIN HERO SECTION STARTED     xxxxxxxxxxxxxxxx --> */
+
+.hero-section {
+    background-image: url(amz.hero.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 30px;
+   
+
+}
+
+.hero-msg {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 30px;
+}
+
+.hero-msg a {
+    text-decoration: none;
+    color: rgb(32, 207, 255);
+}
+
+
+
+/* SHOP SECTION */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f7ecec;
+    
+}
+.box {
+    height: 350px;
+    width: 21%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+   
+}
+
+.box-img {
+    height: 260px;
+    background-size: cover;
+}
+.box-content {
+    margin: 0px 15px 0px 15px;
+}
+.box-content p {
+    padding-top: 16px;
+    font-weight: 700;
+    color: rgb(41, 176, 254);
+}
+
+.box-content h2 {
+    margin-bottom: 5px;
+}
+
+                                /* END OF 8 UPFRONT BOXES */
+
+
+/* FOOTER */
+footer {
+    margin-top: 15px;
+    background-color: #232F3E;
+
+}
+.foot-panel1 {
+    height: 40px;
+    background-color: #485769;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-panel1:hover {
+    background-color: #577292;
+}
+
+
+/* FOOT PANEL 2 */
+
+.foot-panel2 {
+    background-color: #232F3E;
+    height: 300px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.foot-panel2 p {
+    color: white;
+    font-weight: 600;
+    padding: 10px 0px 10px 0px;
+}
+
+.foot-panel2 ul {
+    padding-left: 40px;
+}
+
+.foot-panel2 a {
+    color: rgb(245, 239, 239);
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    margin: 9px 0px 9px 0px;
+}
+.foot-panel2 a:hover {
+    text-decoration: underline;
+}
+
+
+/* FOOT PANEL 3 */
+
+
+.foot-panel3 {
+    height: 100px;
+    color: white;
+    border-top: 0.5px solid white;
+    margin: 10px 200px 10px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo {
+    background-image: url(amz.logo.png);
+    background-size: cover;
+    height: 43px;
+    width: 100px;
+    margin-right: 40px;
+}
+.foot-content {
+    border: 1px solid white;
+    background-color:#232F3E;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+.additive-marg {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* FOOT PANEL 4 */
+
+.foot-panel4 {
+    height: 60px;
+    background-color: #131A22;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.foot-panel4 a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.foot-panel4 a:hover {
+    text-decoration: underline;
+}
+
+.first-line {
+    text-align: center;
+}
+
+.second-line {
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
